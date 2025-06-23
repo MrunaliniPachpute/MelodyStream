@@ -5,50 +5,22 @@
 > ⚠️ **Not deployed publicly** — this project was built purely for learning API integration and backend streaming techniques.
 
 ---
-
-## 🔍 Table of Contents
-
-1. [Features](#features)  
-2. [Tech Stack](#tech-stack)  
-3. [How It Works](#how-it-works)  
-4. [Project Structure](#project-structure)  
-5. [Getting Started](#getting-started)  
-6. [Security & API Key](#security--api-key)  
-7. [Demo](#demo)  
-8. [Future Enhancements](#future-enhancements)  
-9. [License](#license)
-
----
-
-## 🧰 Features
-
-- Search YouTube via keywords and display thumbnail and title results  
-- Retrieve video IDs and fetch direct audio URLs server-side using **yt-dlp**  
-- Play audio via `<audio>` in the browser smoothly (no YouTube embed)  
-- Simple responsive UI with basic play/pause controls
+| Section                                        | Description                                                                                  |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [🎯 Features](#features)                      | Search any song via YouTube Data API, show thumbnails & titles, and play audio directly.     |
+| [🛠️ Tech Stack](#tech-stack)                 | Frontend: HTML, CSS, JS (for learning DOM & fetch)<br>Backend: Node.js + Express + yt-dlp<br>API: YouTube Data API v3 |
+| [🧭 How It Works](#how-it-works)              | 1. User searches → YouTube API returns video IDs<br>2. ID sent to backend → yt-dlp fetches audio<br>3. Audio URL streamed to `<audio>` tag and played |
+| [📁 Project Structure](#project-structure)    | File/folder breakdown                                                                        |
+| [🚀 Getting Started](#getting-started)        | Setup instructions for local use                                                             |
+| [🔐 Security & API Key](#security--api-key)   | API key handling notes                                                                       |
+| [🎬 Demo](#demo)                              | Video walkthrough                                                                            |
+| [📈 Future Enhancements](#future-enhancements)| Planned improvements                                                                         |
+| [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
+![Demo Video](https://user-images.githubusercontent.com/your-upload-path.mp4)
 
-## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, Vanilla JavaScript  
-- **Backend**: Node.js, Express, yt-dlp (`execFile`), CORS  
-- **API**: YouTube Data API v3 (for video search)
 
----
 
-## 🧭 How It Works
-
-1. User enters a search term and clicks “Search”  
-2. Frontend fetches top 3 videos using the YouTube Data API  
-3. Videos are displayed with thumbnails and play buttons  
-4. When a play button is clicked, the app:
-   - Sends the video ID to the backend `/audio/:videoId` endpoint  
-   - Server runs `yt-dlp` to fetch the direct audio URL  
-   - Returns the streamable URL to the frontend  
-5. Frontend sets the URL on `<audio>` and plays it  
-
----
-
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
 
