@@ -16,7 +16,10 @@
 | [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
-![Demo Video](./Stramify.mp4)
+<video src="./Streamify.mp4" controls width="100%" style="border-radius: 10px;">
+  Your browser does not support the video tag.
+</video>
+
 
 
 
