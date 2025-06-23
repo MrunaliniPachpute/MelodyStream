@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <link rel="icon" href="./assets/logo.png" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <div class="main">
+    <input type="checkbox" id="check" />
+    <label for="check" class="bars">
+      <i class="fa-solid fa-bars "></i>
+    </label>
+    <div class="sideBar">
+      <label for="check" class="barcross">
+        <i class="fa-solid fa-xmark "></i>
+      </label>
+      <div class="nav">
+        <div class="nav-option myAdjust" style="opacity: 1">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+
+        </div>
+        <div class="nav-option inpAccess">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search songs..." class="inpSearch">
+
+        </div>
+      </div>
+      <div class="library">
+        <div class="options">
+          <div class="lib-options nav-option">
+            <img src="./assets/library_icon.png" alt="library_icon" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="lib-box">
+            <h4>Create your first playlist</h4>
+            <span>It's easy, we'll help you</span>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="lib-box">
+            <h4>Let's find some podcasts to follow</h4>
+            <span>We'll keep you updated on new episodes</span>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainContent">
+      <div class="sticky-nav">
+        <div class="sticky-nav-arrows">
+          <img src="./assets/backward_icon.png" alt="backward_icon" class="arrow1" />
+          <img src="./assets/forward_icon.png" alt="forward_icon" class="arrow2 hide" />
+        </div>
+        <div class="sticky-nav-option">
+          <button class="badge hide">Explore Premium</button>
+          <button class="badge badge-installApp">
+            <i class="fa-regular fa-circle-down badge-installApp-icon"></i>Install App
+          </button>
+          <i class="fa-regular fa-user userIcon"></i>
+        </div>
+      </div>
+      <div class="cards"></div>
+
+      <div class="sticky-nav2">
+        <button class="nav2Bagde">All</button>
+        <button class="nav2Bagde nav2Bagde2">Music</button>
+        <button class="nav2Bagde nav2Bagde2">Podcasts</button>
+      </div>
+
+
+      <div class="OnSearch">
+        <h2>Searched Results...</h2>
+
+        <div class="cardsContainer">
+
+          <div class="card">
+            <div class="imgs">
+              <img src="./assets/card1img.jpeg" class="thumbnail" alt="Card image" />
+              <i class="fa-solid fa-circle-play playerONTopImg playSearched"></i>
+            </div>
+            <p class="cardTitle SongTitle">Top 50 - Global</p>
+            <p class="cardInfo description">Your daily updates of the most played...</p>
+          </div>
+
+          <div class="card">
+            <div class="imgs">
+              <img src="./assets/card1img.jpeg" class="thumbnail" alt="Card image" />
+              <i class="fa-solid fa-circle-play playerONTopImg playSearched"></i>
+            </div>
+            <p class="cardTitle SongTitle">Top 50 - Global</p>
+            <p class="cardInfo description">Your daily updates of the most played...</p>
+          </div>
+
+
+          <div class="card">
+            <div class="imgs">
+              <img src="./assets/card1img.jpeg" class="thumbnail" alt="Card image" />
+              <i class="fa-solid fa-circle-play playerONTopImg playSearched"></i>
+            </div>
+            <p class="cardTitle SongTitle">Top 50 - Global</p>
+            <p class="cardInfo description">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <div class="cards">
+
+
+          <h2>Recently Played</h2>
+          <div class="cardsContainer">
+
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card1img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Top 50 - Global</p>
+              <p class="cardInfo">Your daily updates of the most played...</p>
+            </div>
+
+
+          </div>
+
+
+          <h2>Trending Now</h2>
+          <div class="cardsContainer">
+
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card2img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Mahiye Jinna Sohna</p>
+              <p class="cardInfo">Darshan Raval</p>
+            </div>
+
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card3img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Mere Paas Tum Ho <br>(Original Track)</p>
+              <p class="cardInfo">Rahat Fateh Ali Khan</p>
+            </div>
+
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card4img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Naa Ready Lyric Song</p>
+              <p class="cardInfo">Thalapathy Vijay</p>
+            </div>
+
+          </div>
+
+
+          <h2>Featured Charts</h2>
+          <div class="cardsContainer">
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card6img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Top Songs - India</p>
+              <p class="cardInfo">Your weekly update of the most ...</p>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card5img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Top Songs - Global</p>
+              <p class="cardInfo">Your weekly update of the most ...</p>
+            </div>
+            <div class="card">
+              <div class="imgs">
+                <img src="./assets/card1img.jpeg" alt="Card image" />
+                <i class="fa-solid fa-circle-play playerONTopImg"></i>
+              </div>
+              <p class="cardTitle">Top 50 - Global</p>
+              <p class="cardInfo">Your daily updates of the most played...</p>
+            </div>
+          </div>
+
+
+          <div class="footer">
+            <div class="line"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="musicPlayer">
+      <div class="albumActive">
+        <img src="./assets/kishna.jfif" class="makeActiveImg" alt="radhaKrishnaSong">
+        <p>
+          <a href="#" class="makeActiveTitle" style="font-weight: 600;">Kanikaanum Neram</a>
+          <a href="#" class="makeActiveDes" style="opacity: 0.7;">Aparna</a>
+        </p>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <figure>
+        <audio controls src="" class="activeAudio"></audio>
+      </figure>
+
+
+
+
+      <div class="albumOptions">
+        <i class="fa-solid fa-heart" style="color: red;"></i>
+        <i class="fa-solid fa-square-check"></i>
+        <i class="fa-solid fa-microphone"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <i class="fa-solid fa-expand"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>
