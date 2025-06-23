@@ -16,12 +16,8 @@
 | [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
-🎬 [Watch Demo on YouTube]([https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/x5BE4PHT7gY))
-⚠️ Note: Due to background music, this demo video may not be available in some countries. The project is for learning purposes only.
+## 🎬 Demo
 
+[![Watch the demo](https://img.youtube.com/vi/x5BE4PHT7gY/0.jpg)](https://youtu.be/x5BE4PHT7gY)
 
-
-
-
-
-
+> ⚠️ Note: This video may not be viewable in all countries due to copyrighted background music. It’s shared for learning and demonstration purposes only.
