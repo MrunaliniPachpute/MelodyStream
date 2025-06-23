@@ -16,7 +16,7 @@
 | [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
-![Demo Video](https://user-images.githubusercontent.com/your-upload-path.mp4)
+![Demo Video](./Stramify.mp4)
 
 
 
