@@ -12,9 +12,7 @@
 | [🧭 How It Works](#how-it-works)              | 1. User searches → YouTube API returns video IDs<br>2. ID sent to backend → yt-dlp fetches audio<br>3. Audio URL streamed to `<audio>` tag and played |
 | [📁 Project Structure](#project-structure)    | File/folder breakdown                                                                        |
 | [🚀 Getting Started](#getting-started)        | Setup instructions for local use                                                             |
-| [🔐 Security & API Key](#security--api-key)   | API key handling notes                                                                       |
 | [🎬 Demo](#demo)                              | Video walkthrough                                                                            |
-| [📈 Future Enhancements](#future-enhancements)| Planned improvements                                                                         |
 | [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
