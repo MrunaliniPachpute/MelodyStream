@@ -1,6 +1,6 @@
-# 🎵 AudioStreamX (or *YourChosenName*)
+# 🎵 MelodyStream
 
-**AudioStreamX** is a lightweight web-based music streaming app built using the **YouTube Data API v3** and a custom **Node.js + yt-dlp** backend. It allows users to search YouTube using keywords, retrieves video IDs, fetches direct audio stream URLs via the server, and plays audio in-browser using the `<audio>` tag—no iframes!
+**MelodyStream** is a lightweight web-based music streaming app built using the **YouTube Data API v3** and a custom **Node.js + yt-dlp** backend. It allows users to search YouTube using keywords, retrieves video IDs, fetches direct audio stream URLs via the server, and plays audio in-browser using the `<audio>` tag—no iframes!
 
 > ⚠️ **Not deployed publicly** — this project was built purely for learning API integration and backend streaming techniques.
 
