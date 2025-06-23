@@ -16,9 +16,9 @@
 | [📄 License](#license)                        | Usage rights and license type                                                                |
 
 ---
-<video src="./Streamify.mp4" controls width="100%" style="border-radius: 10px;">
-  Your browser does not support the video tag.
-</video>
+🎬 [Watch Demo on YouTube]([https://youtu.be/YOUR_VIDEO_ID](https://youtu.be/x5BE4PHT7gY))
+⚠️ Note: Due to background music, this demo video may not be available in some countries. The project is for learning purposes only.
+
 
 
 
